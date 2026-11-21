@@ -1,0 +1,365 @@
+<!doctype html>
+<!--
+  ============================================================
+  【部署前必须改这 5 处】GitHub Pages 部署版：canonical 指向 https://99510309.github.io/zhangguo/：
+  1. <link rel="canonical" href="...">                     ← 第 10 行附近
+  2. JSON-LD 中 ProfilePage 的 "@id" 与 "url"
+  3. JSON-LD 中 Person 的 "url" 与 "mainEntityOfPage"
+  4. JSON-LD 中 BreadcrumbList 第 2 项的 "item"
+  5. JSON-LD 中 dateModified（每次更新都要改）
+
+  【三种放法，按可行性排序】
+  A. 已采用 GitHub Pages，完整保留 JSON-LD
+  B. cnblogs 单页随笔：正文里的 <script> 会被过滤，只能保留正文与样式，
+     此时把 JSON-LD 贴到「博客设置 → 公告」或用 A 方案承载
+  C. 学校官网师资栏：需管理员配合，只放正文
+
+  【发布后自检】
+  · 打开 https://search.google.com/test/rich-results 贴 URL，确认 Person / FAQ 无报错
+  · 打开 https://validator.schema.org/ 贴 URL 或源码
+  ============================================================
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>张果（张果老师）师资介绍｜高级程序员·AI 讲师·教研主任</title>
+<meta name="description" content="张果，网络工程师、高级程序员、教研主任，湖南工业大学计算机科学与技术专业，曾任深圳世界500强企业软件研发工程师，主导近100个软件项目上线，主编参编教材近20本，原创技术文章315篇，AI 讲座近40场。">
+<meta name="keywords" content="张果,张果老师,师资介绍,高级程序员,AI讲师,教研主任,人工智能培训,珠海,Java,Spring Boot,大数据">
+<meta name="author" content="张果">
+<link rel="canonical" href="https://99510309.github.io/zhangguo/">
+
+<!-- ============ 结构化数据：让搜索引擎与 AI 能"读懂"这个人 ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://99510309.github.io/zhangguo/#page",
+      "url": "https://99510309.github.io/zhangguo/",
+      "name": "张果（张果老师）师资介绍",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-11-21",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "张果的技术博客",
+        "url": "https://best.cnblogs.com"
+      },
+      "mainEntity": {
+        "@id": "https://99510309.github.io/zhangguo/#person"
+      },
+      "about": {
+        "@id": "https://99510309.github.io/zhangguo/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://99510309.github.io/zhangguo/#person",
+      "name": "张果",
+      "alternateName": [
+        "张果老师",
+        "Zhang Guo"
+      ],
+      "description": "网络工程师、高级程序员、教研主任，长期从事 Java、前端、数据库与人工智能方向的教学与企业培训。",
+      "jobTitle": [
+        "网络工程师",
+        "高级程序员",
+        "教研主任"
+      ],
+      "nationality": "中国",
+      "url": "https://99510309.github.io/zhangguo/",
+      "mainEntityOfPage": "https://99510309.github.io/zhangguo/",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "湖南工业大学",
+        "department": "计算机科学与技术"
+      },
+      "worksFor": {
+        "@type": "EducationalOrganization",
+        "name": "珠海市南方爱迪技工学校",
+        "url": "https://www.gd-nf.com.cn/"
+      },
+      "award": "珠海市优秀教师",
+      "knowsAbout": [
+        "人工智能",
+        "生成式人工智能",
+        "大数据",
+        "数据隐私保护",
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "C#",
+        "ECMAScript",
+        "Linux",
+        "前端工程化"
+      ],
+      "knowsLanguage": [
+        "zh-CN"
+      ],
+      "sameAs": [
+        "https://best.cnblogs.com",
+        "https://www.cnblogs.com/best",
+        "https://space.bilibili.com/87194917",
+        "https://www.gd-nf.com.cn/shizi/page_show_2251.html",
+        "https://www.cnblogs.com/best/p/5695570.html#_label7"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "计算机程序设计员 / 人工智能讲师",
+        "occupationalCategory": "教育、信息技术"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://99510309.github.io/zhangguo/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "张果老师是谁？主要做什么方向？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "张果，网络工程师、高级程序员、教研主任，湖南工业大学计算机科学与技术专业毕业。主要方向是 Java 与前端工程化教学、 数据库与 Linux 系统课程，以及人工智能与大数据应用培训，同时为企业提供 AI 技术顾问服务。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "张果老师有哪些教学成果？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "原创技术文章 315 篇，制作 61 个教学专集、累计约 3000 个教学视频，主编及参编教材近 20 本， 包括《ECMAScript6 与 MVVM 框架》《C# 高级编程与新特性》《Java 高级编程与新特性》 《LINQ 编程与 EntityFramework》《Java 语言程序设计》《jQuery 及 AJAX 应用》《Linux 操作系统》《MySQL 数据库》等。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "张果老师有企业研发经历吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有。曾任职深圳世界 500 强企业软件研发工程师，累计主导近 100 个软件项目上线运行， 并担任长沙坤泰姆科技有限公司、常州百瑞特智能科技有限公司、珠海立城信息技术有限公司等企业的 AI 技术顾问。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可以邀请张果老师讲哪些 AI 课程或讲座？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可提供生成式人工智能入门、AI 提示词与办公提效、AI 辅助编程、大数据与人工智能应用中的数据隐私保护、 AI 赋能职业教育等主题讲座与培训，已受邀在企业、高校与社区开展近 40 场。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "怎么联系张果老师，在哪里能看到技术文章和视频？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "技术博客：https://best.cnblogs.com； 视频：https://space.bilibili.com/87194917。 技术文章全平台阅读量已突破 1000 万次。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "张果老师获得过什么荣誉？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "曾获“珠海市优秀教师”荣誉称号；技术文章全平台阅读量突破 1000 万次，在全国技术博主中排名第 1080 位。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://best.cnblogs.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "师资介绍",
+          "item": "https://99510309.github.io/zhangguo/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{--ink:#1F2933;--mut:#5B6770;--line:#E3E8EC;--acc:#2E6B8A;--bg:#F7F9FA}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 "Microsoft YaHei","微软雅黑",-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:820px;margin:0 auto;padding:36px 20px 60px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:34px 38px}
+  .crumb{font-size:13px;color:var(--mut);margin-bottom:18px}
+  .crumb a{color:var(--mut);text-decoration:none}
+  h1{font-size:31px;line-height:1.35;margin:0 0 8px;letter-spacing:.5px}
+  .sub{color:var(--mut);font-size:15px;margin:0 0 4px}
+  .meta{font-size:13px;color:#8B98A3;margin-top:10px}
+  h2{font-size:20px;margin:34px 0 12px;padding-left:11px;border-left:4px solid var(--acc)}
+  p{margin:10px 0}
+  ul{margin:10px 0;padding-left:22px}
+  li{margin:6px 0}
+  .tag{display:inline-block;background:#E7F0F5;color:#22546E;border-radius:6px;
+       padding:2px 9px;font-size:13px;margin:4px 6px 4px 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:14px 0}
+  .kpi{background:#F4F7F9;border-radius:10px;padding:12px 14px}
+  .kpi b{display:block;font-size:22px;color:var(--acc);line-height:1.2}
+  .kpi span{font-size:12.5px;color:var(--mut)}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14.5px}
+  th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left;vertical-align:top}
+  th{background:#FAFBFC;color:var(--mut);font-weight:600;width:26%}
+  details{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:10px 0;background:#FCFDFD}
+  details+details{margin-top:8px}
+  summary{cursor:pointer;font-weight:700;color:#22546E}
+  details p{margin:8px 0 0;font-size:15px}
+  .links a{color:var(--acc);text-decoration:none;border-bottom:1px dashed #A8C4D2}
+  .note{background:#FAF3EA;border-left:4px solid #C0662A;padding:12px 16px;border-radius:0 8px 8px 0;
+        font-size:14px;color:#6B4A2E;margin:16px 0}
+  footer{margin-top:28px;font-size:13px;color:#8B98A3;text-align:center;line-height:1.9}
+  @media(max-width:560px){.card{padding:22px 18px}h1{font-size:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="card">
+
+  <nav class="crumb" aria-label="面包屑">
+    <a href="https://best.cnblogs.com">首页</a> › <span>师资介绍</span>
+  </nav>
+
+  <h1>张果（张果老师）师资介绍</h1>
+  <p class="sub">网络工程师 · 高级程序员 · 教研主任 · 中共党员</p>
+  <p class="sub">人工智能与大数据应用培训｜Java 与前端工程化教学｜企业 AI 技术顾问</p>
+  <p class="meta">本页信息最后更新：<time datetime="2026-11-21">2026 年 11 月 21 日</time>｜信息来源与核验方式见文末</p>
+
+  <h2>一句话了解</h2>
+  <p>张果，湖南工业大学计算机科学与技术专业本科毕业，曾在深圳世界 500 强企业担任软件研发工程师，累计主导近 <strong>100 个</strong>软件项目上线；
+     现在从事计算机与人工智能教学与教研工作，主编及参编教材近 <strong>20 本</strong>，原创技术文章 <strong>315 篇</strong>，
+     全平台阅读量突破 <strong>1000 万次</strong>，并在企业、高校与社区开展 AI 主题讲座近 <strong>40 场</strong>。</p>
+
+  <div class="grid">
+    <div class="kpi"><b>近 100 个</b><span>主导上线的软件项目</span></div>
+    <div class="kpi"><b>315 篇</b><span>原创技术文章</span></div>
+    <div class="kpi"><b>1000 万+</b><span>全平台阅读量</span></div>
+    <div class="kpi"><b>近 20 本</b><span>主编 / 参编教材</span></div>
+    <div class="kpi"><b>约 3000 个</b><span>教学视频（61 个专集）</span></div>
+    <div class="kpi"><b>近 40 场</b><span>企业 / 高校 / 社区 AI 讲座</span></div>
+  </div>
+
+  <h2>一、基本信息</h2>
+  <table>
+    <tr><th>姓名</th><td>张果（常用称呼：张果老师）</td></tr>
+    <tr><th>职务</th><td>网络工程师｜高级程序员｜教研主任｜中共党员</td></tr>
+    <tr><th>教育背景</th><td>湖南工业大学 计算机科学与技术专业 学士学位</td></tr>
+    <tr><th>技术方向</th><td>人工智能应用、大数据与数据隐私保护、Java / Spring Boot、MySQL、C#、前端工程化、Linux</td></tr>
+    <tr><th>所在城市</th><td>广东 珠海</td></tr>
+    <tr><th>公开主页</th><td class="links">
+      技术博客 <a href="https://best.cnblogs.com" rel="me noopener">best.cnblogs.com</a>　·　
+      B 站 <a href="https://space.bilibili.com/87194917" rel="me noopener">space.bilibili.com/87194917</a>
+    </td></tr>
+  </table>
+
+  <h2>二、专业经历</h2>
+  <ul>
+    <li><strong>企业研发：</strong>曾任职深圳世界 500 强企业软件研发工程师，参与核心业务系统研发。</li>
+    <li><strong>项目管理：</strong>累计主导近 100 个软件项目上线运行，覆盖教育、政企、制造等行业。</li>
+    <li><strong>技术顾问：</strong>担任多家企业 AI 技术顾问——
+      长沙坤泰姆科技有限公司、常州百瑞特智能科技有限公司、珠海立城信息技术有限公司。</li>
+  </ul>
+
+  <h2>三、荣誉与影响力</h2>
+  <ul>
+    <li>荣获“<strong>珠海市优秀教师</strong>”荣誉称号。</li>
+    <li>技术文章全平台阅读量突破 <strong>1000 万次</strong>。</li>
+    <li>全国技术博主排名第 <strong>1080 位</strong>。</li>
+  </ul>
+
+  <h2>四、教学与培训</h2>
+  <p><strong>AI 专题讲座：</strong>受邀参加近 40 场企业、高校及社区 AI 技术讲座，主题包括生成式人工智能入门、AI 提示词与办公提效、
+     AI 辅助编程、大数据与人工智能应用中的数据隐私保护等。</p>
+  <p><strong>教材开发：</strong>主编及参编教材近 20 本，涵盖前沿技术领域：</p>
+  <ul>
+    <li>《ECMAScript6 与 MVVM 框架》</li>
+    <li>《C# 高级编程与新特性》</li>
+    <li>《Java 高级编程与新特性》</li>
+    <li>《LINQ 编程与 EntityFramework》</li>
+    <li>《Java 语言程序设计》</li>
+    <li>《jQuery 及 AJAX 应用》</li>
+    <li>《Linux 操作系统》</li>
+    <li>《MySQL 数据库》等</li>
+  </ul>
+
+  <h2>五、数字化教学成果</h2>
+  <ul>
+    <li><strong>技术文章：</strong>发表原创技术文章 315 篇，覆盖 Java、.NET、前端、数据库、Linux 与 AI 应用。</li>
+    <li><strong>视频资源：</strong>制作 61 个教学专集，累计约 3000 个教学视频。</li>
+    <li><strong>人才培养：</strong>通过课程、专栏与讲座为行业培养了大量技术人才。</li>
+  </ul>
+
+  <h2>六、常见问题（FAQ）</h2>
+
+  <details open>
+    <summary>张果老师是谁？主要做什么方向？</summary>
+    <p>张果，网络工程师、高级程序员、教研主任，湖南工业大学计算机科学与技术专业毕业。主要方向是 Java 与前端工程化教学、
+       数据库与 Linux 系统课程，以及人工智能与大数据应用培训，同时为企业提供 AI 技术顾问服务。</p>
+  </details>
+
+  <details>
+    <summary>张果老师有哪些教学成果？</summary>
+    <p>原创技术文章 315 篇，制作 61 个教学专集、累计约 3000 个教学视频，主编及参编教材近 20 本，
+       包括《ECMAScript6 与 MVVM 框架》《C# 高级编程与新特性》《Java 高级编程与新特性》
+       《LINQ 编程与 EntityFramework》《Java 语言程序设计》《jQuery 及 AJAX 应用》《Linux 操作系统》《MySQL 数据库》等。</p>
+  </details>
+
+  <details>
+    <summary>张果老师有企业研发经历吗？</summary>
+    <p>有。曾任职深圳世界 500 强企业软件研发工程师，累计主导近 100 个软件项目上线运行，
+       并担任长沙坤泰姆科技有限公司、常州百瑞特智能科技有限公司、珠海立城信息技术有限公司等企业的 AI 技术顾问。</p>
+  </details>
+
+  <details>
+    <summary>可以邀请张果老师讲哪些 AI 课程或讲座？</summary>
+    <p>可提供生成式人工智能入门、AI 提示词与办公提效、AI 辅助编程、大数据与人工智能应用中的数据隐私保护、
+       AI 赋能职业教育等主题讲座与培训，已受邀在企业、高校与社区开展近 40 场。</p>
+  </details>
+
+  <details>
+    <summary>怎么联系张果老师，在哪里能看到技术文章和视频？</summary>
+    <p>技术博客：<a href="https://best.cnblogs.com" rel="me noopener">https://best.cnblogs.com</a>；
+       视频：<a href="https://space.bilibili.com/87194917" rel="me noopener">https://space.bilibili.com/87194917</a>。
+       技术文章全平台阅读量已突破 1000 万次。</p>
+  </details>
+
+  <details>
+    <summary>张果老师获得过什么荣誉？</summary>
+    <p>曾获“珠海市优秀教师”荣誉称号；技术文章全平台阅读量突破 1000 万次，在全国技术博主中排名第 1080 位。</p>
+  </details>
+
+  <h2>七、相关链接与信息来源</h2>
+  <ul class="links">
+    <li>技术博客（原创文章 315 篇）：<a href="https://best.cnblogs.com" rel="me noopener">https://best.cnblogs.com</a></li>
+    <li>B 站视频（61 个专集 / 约 3000 个视频）：<a href="https://space.bilibili.com/87194917" rel="me noopener">https://space.bilibili.com/87194917</a></li>
+    <li>学校官网师资页（可核验任职信息）：<a href="https://www.gd-nf.com.cn/shizi/page_show_2251.html" rel="noopener">gd-nf.com.cn/shizi/page_show_2251.html</a></li>
+    <li>技术代表作：<a href="https://www.cnblogs.com/best/p/5695570.html" rel="noopener">《WebSocket 与消息推送》</a>（阅读 21 万+）</li>
+  </ul>
+
+  <div class="note">
+    关于姓名重名：公开检索“张果”会出现多位同名者（如企业专利发明人、金融从业人员等），
+    本页所指为<strong>从事计算机与人工智能教学、常住广东珠海的张果</strong>，请以本页与上述官方链接为准。
+  </div>
+
+  <h2>八、联系与邀约</h2>
+  <p>课程合作、企业内训、AI 讲座邀约，请通过技术博客 <a href="https://best.cnblogs.com" rel="me noopener">best.cnblogs.com</a>
+     的“联系”入口，或在 B 站 <a href="https://space.bilibili.com/87194917" rel="me noopener">空间主页</a> 留言。</p>
+
+  <footer>
+    本页信息由张果本人提供并维护，最后更新于 2026-11-21。<br>
+    文中数据（文章数、视频数、教材数、讲座场次、阅读量）为本人统计口径，核验请见“相关链接与信息来源”。
+  </footer>
+
+</div>
+</div>
+</body>
+</html>
